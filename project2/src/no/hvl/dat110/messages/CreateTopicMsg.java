@@ -4,8 +4,8 @@ public class CreateTopicMsg extends Message {
 
     private String topic;
 
-	public CreateTopicMsg(MessageType msgTyp, String user, String topic){
-	    super(msgTyp, user);
+	public CreateTopicMsg(String user, String topic){
+	    super(MessageType.CREATETOPIC,user);
 	    this.topic = topic;
     }
 
