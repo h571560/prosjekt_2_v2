@@ -1,4 +1,4 @@
-package no.hvl.dat110.chapp;
+package chapp;
 
 import javafx.geometry.Insets;
 import javafx.scene.control.Label;

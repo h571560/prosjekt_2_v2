@@ -1,6 +1,4 @@
-package no.hvl.dat110.chapp;
-
-import java.util.Optional;
+package chapp;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -10,6 +8,8 @@ import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextInputDialog;
 import javafx.stage.Stage;
+
+import java.util.Optional;
 
 public class Menus {
 

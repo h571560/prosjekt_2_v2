@@ -2,26 +2,28 @@ package no.hvl.dat110.messages;
 
 public class UnsubscribeMsg extends Message {
 
-	// TODO: 
-	// Implement objectvariables, constructor, get/set-methods, and toString method
-    private String topic;
-    public UnsubscribeMsg(String user, String topic) {
+    // TODO:
+    // Implement objectvariables, constructor, get/set-methods, and toString method
+    private String unSubTo;
+
+    public UnsubscribeMsg(String user, String unSubTo) {
         super(MessageType.SUBSCRIBE, user);
-        this.topic = topic;
+        this.unSubTo = unSubTo;
     }
 
-    public String getTopic() {
-        return topic;
+    public String getUnSubTo() {
+
+        return unSubTo;
     }
 
     public void setTopic(String topic) {
-        this.topic = topic;
+
+        this.unSubTo = unSubTo;
     }
+
 
     @Override
     public String toString() {
-        return "UnsubscribeMsg{" +
-                "topic='" + topic + '\'' +
-                '}';
+        return String.format("%s unsubscribe to: %s", super.toString(), this.unSubTo);
     }
 }

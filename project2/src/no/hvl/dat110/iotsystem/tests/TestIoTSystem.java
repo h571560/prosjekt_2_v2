@@ -3,7 +3,6 @@ package no.hvl.dat110.iotsystem.tests;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-
 import no.hvl.dat110.broker.BrokerServer;
 import no.hvl.dat110.iotsystem.DisplayDevice;
 import no.hvl.dat110.iotsystem.TemperatureDevice;

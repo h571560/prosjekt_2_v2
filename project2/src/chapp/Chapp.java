@@ -1,4 +1,4 @@
-package no.hvl.dat110.chapp;
+package chapp;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

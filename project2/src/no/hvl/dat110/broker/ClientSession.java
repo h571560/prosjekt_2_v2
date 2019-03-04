@@ -47,4 +47,8 @@ public class ClientSession {
 		return msg;
 	}
 
+	public Connection getConnection() {
+		return connection;
+	}
+
 }

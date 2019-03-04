@@ -1,6 +1,6 @@
-package no.hvl.dat110.chapp;
+package chapp;
 
-import no.hvl.dat110.client.*;
+import no.hvl.dat110.client.Client;
 import no.hvl.dat110.messages.PublishMsg;
 
 public class Controller {

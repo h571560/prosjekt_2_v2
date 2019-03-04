@@ -1,4 +1,4 @@
-package no.hvl.dat110.chapp;
+package chapp;
 
 import javafx.scene.control.TextArea;
 import no.hvl.dat110.common.Stopable;
