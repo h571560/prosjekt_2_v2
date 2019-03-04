@@ -96,7 +96,7 @@ public class Dispatcher extends Stopable {
                     Logger.log("sending unread message to " + user);
                     storage.bufferedMessages.remove(id);
                 }
-                // Taking user off the disconnected list
+                // fjerner bruker fra disconected List når brukerern connecter igjen
                 Logger.log("removing " + user + " from the disconnected list");
                 storage.disconnectedClients.remove(user);
             }
@@ -104,6 +104,7 @@ public class Dispatcher extends Stopable {
             e.printStackTrace();
             Logger.log("Error");
         }
+        //DONE: how to handle user connection
 
     }
 
@@ -120,6 +121,7 @@ public class Dispatcher extends Stopable {
             e.printStackTrace();
             Logger.log("Error");
         }
+        //DONE: on disconected user
     }
 
     public void onCreateTopic(CreateTopicMsg msg) {
