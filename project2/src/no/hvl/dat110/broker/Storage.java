@@ -51,10 +51,12 @@ public class Storage {
 	}
 
 	public void removeClientSession(String user) {
+
 		clients.remove(user);
 	}
 
 	public void createTopic(String topic) {
+
 		subscriptions.put(topic, new HashSet<String>());
 	}
 
